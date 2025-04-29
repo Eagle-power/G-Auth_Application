@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%;
+    overflow: hidden;
+  }
+ /* App.css */
+@keyframes colorShift {
+  0% {
+    color: #ff8a00;
+  }
+  50% {
+    color: #e52e71;
+  }
+  100% {
+    color: #9b00e8;
+  }
+}
+
+/* Add this animation to the 'Authentication' text */
+.authentication-text {
+  animation: colorShift 3s linear infinite;
+}
+
+  
