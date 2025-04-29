@@ -10,9 +10,6 @@ yarn-error.log
 # Logs
 *.log
 
-# OS-specific files
-.DS_Store      # macOS
-Thumbs.db      # Windows
 
 # Vite, build output
 /dist/
@@ -21,5 +18,4 @@ Thumbs.db      # Windows
 .vscode/
 .idea/
 
-# Other
-*.bak
+
